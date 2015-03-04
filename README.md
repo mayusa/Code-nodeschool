@@ -1,3 +1,3 @@
-#May's answers for  [nodeschool](http://nodeschool.io)'s learn-you-node track.
+#May's answers for  [nodeschool.io](http://nodeschool.io)
 
 - [learnyounode](learnyounode)
