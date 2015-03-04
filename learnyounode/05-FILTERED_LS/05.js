@@ -1,18 +1,39 @@
 'use strict';
 var fs = require('fs');
 
-fs.readFile(process.argv[2], 'utf8', function (err, data) {
-    return console.log(data.split('\n').length - 1);
-});
+var args = process.argv.slice(2, 4),
+    path = args[0],
+    filter = args[1];
+
+var ext = new RegExp('\\.' + filter + '$');
+
+var matching = function (d) {
+    return ext.test(d);
+};
+
+
+var printFiltered = function (err, list) {
+    list.sort()
+        .filter(matching)
+        .forEach(function (f) {
+
+            console.log(f);
+        });
+};
+
+fs.readdir(path, printFiltered);
+
 
 /*
 // Here's the official solution in case you want to compare notes:
-var fs = require('fs')
-var file = process.argv[2]
 
-fs.readFile(file, function (err, contents) {
-  // fs.readFile(file, 'utf8', callback) can also be used
-  var lines = contents.toString().split('\n').length - 1
-  console.log(lines)
+var fs = require('fs')
+var path = require('path')
+fs.readdir(process.argv[2], function (err, list) {
+  list.forEach(function (file) {
+    if (path.extname(file) === '.' + process.argv[3])
+      console.log(file)
+  })
 })
+
 */
