@@ -1,6 +1,6 @@
 # nodeschool.io - Learn You Node
 
-May's answers for [nodeschool](http://nodeschool.io)'s [learn-you-node](http://nodeschool.io/#learn-you-node) track.
+May's answers for [nodeschool](http://nodeschool.io)'s [learn-you-node](http://nodeschool.io/#learnyounode) track.
 
 * [HELLO WORLD](01-HELLO_WORLD)
 * [BABY STEPS](02-BABY_STEPS)
