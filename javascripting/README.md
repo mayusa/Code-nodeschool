@@ -7,7 +7,9 @@ May's answers for [nodeschool](http://nodeschool.io)'s [javascripting](http://no
 
 ##Contents:
 ###JAVASCRIPTING
+
 -------------
+
 1. INTRODUCTION  
 2. VARIABLES  
 3. STRINGS  
@@ -26,5 +28,6 @@ May's answers for [nodeschool](http://nodeschool.io)'s [javascripting](http://no
 16. OBJECT PROPERTIES  
 17. FUNCTIONS  
 18. FUNCTION ARGUMENTS  
+
 -----------------
 ashucn@gmail.com  
