@@ -11,12 +11,12 @@ May's answers for [nodeschool](http://nodeschool.io)'s [functional-javascript-wo
 
 -------------  
 
-» 01. Hello World  
-» 02. Higher Order Functions  
-» 03. Basic: Map 
-» 04. Basic: Filter 
-» 05. Basic: Every Some  
-» 06. Basic: Reduce  
+» 01. Hello World  :heavy_check_mark:  
+» 02. Higher Order Functions  :heavy_check_mark:  
+» 03. Basic: Map   :heavy_check_mark:  
+» 04. Basic: Filter   :heavy_check_mark:  
+» 05. Basic: Every Some    :heavy_check_mark:  
+» 06. Basic: Reduce    :heavy_check_mark:  
 » 07. Basic: Recursion   
 » 08. Basic: Call  
 » 09. Partial Application without Bind  
